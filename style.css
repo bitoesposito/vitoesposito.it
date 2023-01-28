@@ -94,15 +94,6 @@ li i {
     font-size: 1.5rem;
 }
 
-li:first-child {
-    color: var(--primary-color);
-    margin-bottom: 10px;
-    background-color: var(--dark-color);
-    padding: 5px;
-    border-radius: 5px;
-    width: 40px;
-}
-
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -122,7 +113,7 @@ li:first-child {
 
 .resume-intro {
     text-align: justify;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .scroll {
