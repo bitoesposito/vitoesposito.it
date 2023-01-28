@@ -19,6 +19,8 @@ body {
     height: 100vh;
     padding: 2.5rem;
     gap: 1rem;
+    max-width: 1900px;
+    margin: auto;
 }
 
 h1,
@@ -224,7 +226,7 @@ li i {
     display: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1300px) {
 
     body {
         height: 100vh;
