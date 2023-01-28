@@ -1,0 +1,114 @@
+:root {
+	--primary-color: #f2e7d5;
+	--dark-color: #282828;
+	--accent-color: #8000ff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Spectral', serif;
+    font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	background: var(--primary-color);
+    height: 100vh;
+    padding: 2.5rem;
+    gap: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Spectral', serif;
+	color: var(--dark-color);
+    font-style: normal;
+    border-radius: 0.5rem;
+}
+
+h2 {
+    line-height: 2.5rem;
+}
+
+h2 i {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 5px;
+}
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection,
+a::selection {
+    background: var(--dark-color);
+    color: var(--primary-color);
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	margin: 0.5rem 0;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+li a{
+    color: var(--dark-color);
+}
+
+li a:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Layout */
+.general-resume {
+    max-width: 500px;    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resume-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.scroll {
+    width: 350px;
+    display: flex;
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+}
+
+.preview {
+    background-color: var(--dark-color);
+    width: 50%;
+    display: flex;
+    border-radius: 1rem;
+}
