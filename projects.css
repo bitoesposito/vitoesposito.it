@@ -1,0 +1,7 @@
+/* portfolio personale - web design */
+.p01 {
+    background-image: url(./img/pr01.JPG);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}

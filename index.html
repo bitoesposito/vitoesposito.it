@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -32,48 +33,53 @@
         </ul>
     </div>
     <div class="scroll">
-        <div class="project active noselect" id="p01">
+
+        <div class="project active noselect p01">
             <h3>web design</h3>
             <p>portfolio personale</p>
         </div>
-        <div class="project  noselect" id="p01">
+
+        <div class="project noselect">
+            <h3>prova</h3>
+            <p>progetto 1</p>
+        </div>
+
+        <div class="project noselect">
             <h3>categoria</h3>
             <p>senza titolo</p>
         </div>
-        <div class="project  noselect" id="p01">
-            <h3>categoria</h3>
-            <p>senza titolo</p>
-        </div>
-        <div class="project  noselect" id="p01">
-            <h3>categoria</h3>
-            <p>senza titolo</p>
-        </div>
-        <div class="project  noselect" id="p01">
-            <h3>categoria</h3>
-            <p>senza titolo</p>
-        </div>
-        <div class="project  noselect" id="p01">
-            <h3>categoria</h3>
-            <p>senza titolo</p>
-        </div>
-        <div class="project  noselect" id="p01">
-            <h3>categoria</h3>
-            <p>senza titolo</p>
-        </div>
-        <div class="project  noselect" id="p01">
-            <h3>categoria</h3>
-            <p>senza titolo</p>
-        </div>
+
     </div>
     <div class="preview">
+
+        <!-- portfolio personale - web design -->
         <div class="project-info noselect">
             <div class="project-title">
                 <h1>portfolio personale</h1>
                 <h3>aggiornato a GEN/2023</h3>
             </div>
             <h2>Questa pagina web riassume alcuni dei progetti più rilevanti a cui ho lavorato.</h2>
+            <h2>Questa stessa pagina web è stata creata da me, nel tempo sto approfondento il web development e le novità tecnologiche come è stato ultimamente con le IA come <a href="chat.openai.com">ChatGPT</a> ecc...</h2>
             <h2>Clicca sulla scheda dedicata per visualizzare una breve descrizione delle tecnologie e tecniche implementate per la sua realizzazione.</h2>
         </div>
+
+        <div class="project-info noselect hide">
+            <div class="project-title">
+                <h1>progetto 1</h1>
+                <h3>aggiornato a GEN/2023</h3>
+            </div>
+            <h2>Progetto 1.</h2>
+        </div>
+
+        <div class="project-info noselect hide">
+            <div class="project-title">
+                <h1>progetto 2</h1>
+                <h3>aggiornato a GEN/2023</h3>
+            </div>
+            <h2>Progetto 2.</h2>
+        </div>
+
     </div>
+    <script src="./script/project-selection.js"></script>
 </body>
 </html>
