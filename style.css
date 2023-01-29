@@ -68,6 +68,10 @@ a {
 	text-decoration: none;
 }
 
+a:focus {
+    outline: none;
+}
+
 p {
     color: var(--primary-color);
 	margin: 0.5rem 0;

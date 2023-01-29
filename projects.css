@@ -1,6 +1,118 @@
 /* portfolio personale - web design */
-.p01 {
-    background-image: url(./img/pr01.JPG);
+.pr01 {
+    background-image: url(./img/pr01.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr02 {
+    background-image: url(./img/pr02.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr03 {
+    background-image: url(./img/pr03.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr04 {
+    background-image: url(./img/pr04.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr05 {
+    background-image: url(./img/pr05.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr06 {
+    background-image: url(./img/pr06.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr07 {
+    background-image: url(./img/pr07.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr08 {
+    background-image: url(./img/pr08.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr09 {
+    background-image: url(./img/pr09.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr10 {
+    background-image: url(./img/pr10.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr11 {
+    background-image: url(./img/pr11.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr12 {
+    background-image: url(./img/pr12.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr13 {
+    background-image: url(./img/pr13.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -50px 40px rgba(0, 0, 0, 0.9);
+}
+
+.pr14 {
+    background-image: url(./img/pr14.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr15 {
+    background-image: url(./img/pr15.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr16 {
+    background-image: url(./img/pr16.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px;
+}
+
+.pr17 {
+    background-image: url(./img/pr17.png);
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 -30px 30px;
