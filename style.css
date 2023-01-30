@@ -134,14 +134,17 @@ li i {
     cursor: pointer;
     position: relative;
     height: 140px;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     background-color: var(--accent-color);
     margin: 1rem;
     z-index: 1;
+    box-sizing: content-box;
+    border: 2.5px solid var(--primary-color);
 }
 
 .idle {
-    opacity: 0.5;
+    box-sizing: content-box;
+    border: 2.5px solid var(--dark-color);
 }
 
 .project:hover {
@@ -334,6 +337,7 @@ footer {
         display: flex;
         width: 240px;
         flex-shrink: 0;
+        box-sizing: content-box;
     }
 
     .project-info h2 {
