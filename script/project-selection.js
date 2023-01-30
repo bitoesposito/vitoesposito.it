@@ -15,3 +15,4 @@ projects.forEach(function(project, index) {
     projectInfos[index].classList.remove('hide');
   });
 });
+  
