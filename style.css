@@ -349,6 +349,7 @@ footer {
 
     footer {
         display: block;
+        margin-bottom: 20px;
     }
 
     footer hr {
