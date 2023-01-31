@@ -232,7 +232,7 @@ li i {
 }
 
 .project-info h2 a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--primary-color);
     text-decoration: underline;
 }
