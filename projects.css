@@ -13,6 +13,11 @@
     box-shadow: inset 0 -30px 30px;
 }
 
+.global-destiny {
+    max-width: 350px;
+    margin: auto;
+}
+
 .pr03 {
     background-image: url(./img/pr03.png);
     background-size: cover;

@@ -128,15 +128,17 @@ li i {
     border-radius: 1rem;
     overflow: auto;
     width: 100%;
+    padding-right: 1rem;
 }
 
 .project {
     cursor: pointer;
     position: relative;
     height: 140px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: var(--accent-color);
     margin: 1rem;
+    margin-right: 0;
     z-index: 1;
     box-sizing: content-box;
     border: 2.5px solid var(--primary-color);
@@ -145,10 +147,6 @@ li i {
 .idle {
     box-sizing: content-box;
     border: 2.5px solid var(--dark-color);
-}
-
-.project:hover {
-    opacity: 1;
 }
 
 .project h3 {
@@ -300,7 +298,7 @@ footer {
 
     .resume-intro h2 {
         font-size: 1.25rem;
-        line-height: 1.5rem;
+        line-height: 1.25rem;
         margin-bottom: 10px;
     }
 
@@ -313,9 +311,24 @@ footer {
         line-height: 1rem;
     }
 
+    ul {
+        background-color: var(--dark-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px 20px 15px 15px;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
     li a {
+        color: var(--primary-color);
         font-size: 0rem;
         padding-left: 5px;
+    }
+
+    li a:hover {
+        color: var(--primary-color);
     }
     
     .scroll {
