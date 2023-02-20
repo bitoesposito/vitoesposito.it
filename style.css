@@ -10,11 +10,18 @@
 }
 
 body {
+    height: 100vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Spectral', serif;
     font-weight: 500;
 	-webkit-font-smoothing: antialiased;
 	background: var(--primary-color);
     padding: 2rem;
+    max-width: 800px;
+    margin: auto;
 }
 
 h1,
@@ -72,6 +79,10 @@ p {
     font-size: 1.3rem;
 }
 
+img {
+    border-radius: 1rem;
+}
+
 ul {
     display: flex;
     align-items: center;
@@ -107,4 +118,13 @@ li i {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
+}
+
+hr{
+    border-top: 3px solid var(--dark-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
 }
